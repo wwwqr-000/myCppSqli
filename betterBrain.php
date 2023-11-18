@@ -2,10 +2,10 @@
 //Config
 $key1 = "123";
 $key2 = "321";
-$path = "./";
+$path = "../cachefolder/";
 $dbUrl = "localhost";
 $dbUser = "root";
-$dbPw = "phpmyadminPassword";
+$dbPw = "password";
 $maxFileSize = 10000;
 //
 session_start();
@@ -113,7 +113,7 @@ switch($cmd) {
         }
         $conn->close();
         if (json_encode($outputArr) == "[]") {
-            die("empty");
+            die(" ");
         }
         else {
             die(json_encode($outputArr));
@@ -135,12 +135,15 @@ switch($cmd) {
         $jaag->execute();
         $result = $jaag->get_result();
         $outputArr = [];
+        if ($result == "") {
+            die(" ");
+        }
         while ($row = $result->fetch_assoc()) {
             array_unshift($outputArr, $row);
         }
         $conn->close();
         if (json_encode($outputArr) == "[]") {
-            die("empty");
+            die(" ");
         }
         else {
             die(json_encode($outputArr));
