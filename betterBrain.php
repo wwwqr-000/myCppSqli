@@ -107,7 +107,11 @@ switch($cmd) {
             die("$conn error");
         }
         $pull = $conn->query($query);
+        $pullCheck = $pull;
         $outputArr = [];
+        if ($pullCheck->num_rows == 0) {
+            die(" ");
+        }
         while ($row = $pull->fetch_assoc()) {
             array_unshift($outputArr, $row);
         }
