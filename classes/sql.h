@@ -4,7 +4,7 @@
 #include <string>
 #include <vector>
 #include <variant>
-#include "libs/json.hpp"
+#include "json.hpp"
 #include <sstream>
 #include <iomanip>
 using json = nlohmann::json;
@@ -48,6 +48,10 @@ class Mysqli {
             tmpPathFile.close();
             system("attrib -h -s tmpPathcache.url && del tmpPathcache.url");
             tmpPath = tmptmpStr.substr(0, tmptmpStr.size() - 2);
+            //If there are undeleted tmp files, then delete these.
+            std::remove((tmpPath + "\\mysqli_cpp_out.url").c_str());
+            std::remove((tmpPath + "\\jaag.txt").c_str());
+            //
             //
         }
     public:
