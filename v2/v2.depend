@@ -1,0 +1,62 @@
+# depslib dependency file v1.0
+1712338175 source:g:\githubdesktopworkspace\passwordsmanytomuch\mycppsqli\v2\main.cpp
+	<iostream>
+	"classes/Mysql.hpp"
+
+1711435340 g:\githubdesktopworkspace\passwordsmanytomuch\mycppsqli\v2\libs\curl-8.7.1_7-win64-mingw\include\curl\curl.h
+	"curlver.h"
+	"system.h"
+	<stdio.h>
+	<limits.h>
+	<sys/param.h>
+	<sys/types.h>
+	<time.h>
+	<winsock2.h>
+	<ws2tcpip.h>
+	<sys/select.h>
+	<sys/socket.h>
+	<sys/time.h>
+	"easy.h"
+	"multi.h"
+	"urlapi.h"
+	"options.h"
+	"header.h"
+	"websockets.h"
+	"mprintf.h"
+	"typecheck-gcc.h"
+
+1711523012 g:\githubdesktopworkspace\passwordsmanytomuch\mycppsqli\v2\libs\curl-8.7.1_7-win64-mingw\include\curl\curlver.h
+
+1711352940 g:\githubdesktopworkspace\passwordsmanytomuch\mycppsqli\v2\libs\curl-8.7.1_7-win64-mingw\include\curl\system.h
+	<ConditionalMacros.h>
+	<inttypes.h>
+	<inttypes.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<sys/poll.h>
+
+1709756164 g:\githubdesktopworkspace\passwordsmanytomuch\mycppsqli\v2\libs\curl-8.7.1_7-win64-mingw\include\curl\easy.h
+
+1709756164 g:\githubdesktopworkspace\passwordsmanytomuch\mycppsqli\v2\libs\curl-8.7.1_7-win64-mingw\include\curl\multi.h
+	"curl.h"
+
+1711352940 g:\githubdesktopworkspace\passwordsmanytomuch\mycppsqli\v2\libs\curl-8.7.1_7-win64-mingw\include\curl\urlapi.h
+	"curl.h"
+
+1709756164 g:\githubdesktopworkspace\passwordsmanytomuch\mycppsqli\v2\libs\curl-8.7.1_7-win64-mingw\include\curl\options.h
+
+1709756164 g:\githubdesktopworkspace\passwordsmanytomuch\mycppsqli\v2\libs\curl-8.7.1_7-win64-mingw\include\curl\header.h
+
+1709756164 g:\githubdesktopworkspace\passwordsmanytomuch\mycppsqli\v2\libs\curl-8.7.1_7-win64-mingw\include\curl\websockets.h
+
+1711352940 g:\githubdesktopworkspace\passwordsmanytomuch\mycppsqli\v2\libs\curl-8.7.1_7-win64-mingw\include\curl\mprintf.h
+	<stdarg.h>
+	<stdio.h>
+	"curl.h"
+
+1709756164 g:\githubdesktopworkspace\passwordsmanytomuch\mycppsqli\v2\libs\curl-8.7.1_7-win64-mingw\include\curl\typecheck-gcc.h
+
+1712338107 g:\githubdesktopworkspace\passwordsmanytomuch\mycppsqli\v2\classes\mysql.hpp
+	<curl/curl.h>
+	<vector>
+
